@@ -36,12 +36,11 @@ namespace modul2_1302204105
 
         private void plus(object sender, EventArgs e)
         {
-            if(a != 0)
+            if(textBox1.Text != "0")
             {
                 a = Convert.ToDouble(textBox1.Text);
             }
             textBox1.Text = "";
-            
         }
 
         private void samadengan(object sender, EventArgs e)
